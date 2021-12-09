@@ -1,0 +1,20 @@
+[package]
+name = "duo"
+version = "0.1.0"
+edition = "2021"
+authors = ["Stephen Akinyemi <steve@gigamono.com>"]
+description = "A Smart Compiler for an Uninspiring High-Level IR"
+readme = "README.md"
+repository = "https://github.com/appcypher/duo"
+keywords = ["language", "intermediate representation", "webassembly", "ir", "compiler"]
+categories = ["development-tools"]
+documentation = "https://github.com/appcypher/duo"
+homepage = "https://gigamono.com"
+license-file = "LICENSE"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+name = "duo"
+path = "lib/lib.rs"
